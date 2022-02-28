@@ -3,7 +3,7 @@
 A star wars themed weather app that displays the weather at your current location with a beautiful background image of a star wars world with the same weather conditions
 <br><br>
 
-### Live URL: https://pulkit-jasti.github.io/Star-Wars-Weather-App/
+### Live URL: https://iroqu.github.io/Star-Wars-Weather-App/
 
 <br><br>
 
