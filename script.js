@@ -1,29 +1,8 @@
 let getLocation = () => {
 	if (navigator.geolocation) {
-		navigator.geolocation.getCurrentPosition(
-			getWeather(32.109,  34.855));
-			/*pos => {
-				getWeather(pos.coords.latitude, pos.coords.longitude);
-			},
-			error => {
-				switch (error.code) {
-					case error.PERMISSION_DENIED:
-						alert('Turn on location services or open the website on desktop');
-						break;
-					case error.POSITION_UNAVAILABLE:
-						alert('Turn on location services or open the website on desktop');
-						break;
-					case error.TIMEOUT:
-						alert('Turn on location services or open the website on desktop');
-						break;
-					case error.UNKNOWN_ERROR:
-						alert('Turn on location services or open the website on desktop');
-						break;
-				}
-			}*/
-		);
+		getWeather(32.109,  34.855);
 	} else {
-		alert('Turn on location services or open the website on desktop');
+		alert('Your browser does not support geolocation services, or you did not enable its permissions');
 	}
 };
 
