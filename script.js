@@ -1,7 +1,8 @@
 let getLocation = () => {
 	if (navigator.geolocation) {
 		navigator.geolocation.getCurrentPosition(
-			pos => {
+			getWeather(32.109,  34.855);
+			/*pos => {
 				getWeather(pos.coords.latitude, pos.coords.longitude);
 			},
 			error => {
@@ -19,7 +20,7 @@ let getLocation = () => {
 						alert('Turn on location services or open the website on desktop');
 						break;
 				}
-			}
+			}*/
 		);
 	} else {
 		alert('Turn on location services or open the website on desktop');
