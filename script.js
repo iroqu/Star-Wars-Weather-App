@@ -1,7 +1,7 @@
 let getLocation = () => {
 	if (navigator.geolocation) {
 		navigator.geolocation.getCurrentPosition(
-			getWeather(32.109,  34.855);
+			getWeather(32.109,  34.855));
 			/*pos => {
 				getWeather(pos.coords.latitude, pos.coords.longitude);
 			},
